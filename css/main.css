@@ -1,0 +1,121 @@
+* { 
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+}
+
+body > header{
+    background-color: hsla(273, 38%, 31%, 0.678);
+    padding: 16px;
+    color:#fff;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header li{
+    display:inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+header li a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.container{
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.article{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+
+.article img{
+    height: 180px;
+}
+
+.article article{
+    width: 30%;
+}
+
+.section{
+    padding: 16px 0;
+}
+
+.section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+.article article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.article article a{
+    background-color:rgb(39, 53, 80);
+    color:#fff;
+    padding: 8px;
+    display: inline-block;
+    text-decoration:none;
+    font-weight:bold;
+    margin-top: 8px;
+}
+
+.article article a:hover{
+    text-decoration:underline;
+}
+
+.article article p,
+.article article a{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.article article h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#esportes {
+    background-color: rgb(32, 53, 110);
+}
+
+#esportes .article article a{
+    background-color: rgba(118, 85, 151, 0.637) ;
+}
+
+#economia  {
+    background-color: rgba(224, 180, 59, 0.918);
+}
+
+#economia .article article a{
+    background-color: rgba(173, 110, 16, 0.534);
+}
+
+#misterio_ufos {
+    background-color: rgba(143, 53, 228, 0.384);
+}
+
+#misterio_ufos .article article a{
+    background-color: rgba(46, 5, 83, 0.322);
+}
+
+#avanço_da_tecnologia {
+    background-color: rgba(39, 39, 150, 0.616);
+}
+
+#avanço_da_tecnologia .article article a{
+    background-color: rgba(14, 14, 54, 0.349);
+}
